@@ -4,10 +4,8 @@ import styled from 'styled-components';
 
 //styling
 const SectionContainer = styled.div `
-background: grey;
-opacity: 0.4;
-width: 75%;
-margin-left: 12%;
+width: 50%;
+margin-left: 25%;
 `;
 
 const CharacterInfo = props => {

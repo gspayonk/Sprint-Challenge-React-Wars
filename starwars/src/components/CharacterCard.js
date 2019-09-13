@@ -1,10 +1,19 @@
 import React from 'react';
+import styled from 'styled-components';
+
+//section separation
+const IndividualSection = styled.div `
+    border: 2px solid black;
+    margin-bottom: 3%;
+    background: white;
+
+`
 
 function CharacterCard (props) {
     
     return (
         <div className = 'mainCard'>
-            <div className = 'cardinfo'>
+            <IndividualSection>
                 <h1 className='name'>{props.star.name}</h1>
                     <div className='personalinfo'>
                         <p>Gender: {props.star.gender}</p>
@@ -15,7 +24,7 @@ function CharacterCard (props) {
                         <p>Height: {props.star.height} cm</p>
                         <p>Hair Color: {props.star.hair_color}</p>
                     </div>
-            </div>
+            </IndividualSection>
         </div>
     );
 

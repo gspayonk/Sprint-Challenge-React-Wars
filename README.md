@@ -24,15 +24,26 @@ In this challenge, create a web page that presents a styled list of Star Wars ch
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+- What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
-- [ ] What does it mean to _think_ in react?
+	    React is an open-source JavaScript library which is used for building user interfaces specifically for single page applications. It’s used for handling view layer for web and mobile apps. It allows us to create reusable UI components and to create large web applications which can change data, without reloading the page. 
 
-- [ ] Describe state.
+- What does it mean to think in react?
 
-- [ ] Describe props.
+        It means that we’re think about our project overall, it makes you think about components in a compartmentalized manner, which is organized and with intention we map it all out to do things in a simple way.
 
-- [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+- Describe state.	
+
+	    State allows you to create components that are dynamic and interactive.
+
+- Describe props.
+
+	    Props allow us to manipulate, it’s a creation parameter, describe what should appear.
+
+- What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+	    Side effects are anything that affects something outside the scope of the function being executed. We can sync our side effects with state or props changes. We do this by passing in a dependency array as the second argument to the effect hook.
+
 
 ## Project Set Up
 
